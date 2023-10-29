@@ -7,10 +7,13 @@ E' stata costruita utilizzando:
 - Javascript
 
 ___
-Puoi provare il gioco al seguente link:
-[https://lauraservettini.github.io/tic-tac-toe/](https://github.com/markdown-it/markdown-it-container)
 
-::: warning
+Puoi provare il gioco al seguente link:
+
+https://lauraservettini.github.io/tic-tac-toe/
+
+___
+
 #### **Regole del gioco (2 giocatori)**
 Dopo aver inserito i nomi di entrambi i giocatori si inizia il gioco cliccando su Start New Game.
 
@@ -18,11 +21,12 @@ I giocatori si alternano e ad ogni turno ognuno potrà selezionare solo una case
 Vince chi per primo mette in fila tre simboli in riga, in colonna o in diagonale.
 Una casella non può essere selezionata più volte.
 Se alla fine dei 9 turni nessuno fa tris il gioco termina.
-:::
+
 ___
+
 #### **MIT License**
 
-Copyright (c) 2023 Laura Servettini
+Copyright © 2023 Laura Servettini
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
