@@ -1,0 +1,55 @@
+#backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+#config-name {
+  position: fixed;
+  top: 14rem;
+  left: 10%;
+  width: 80%;
+  background-color: rgb(252, 211, 242);
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: none;
+  transition: scale 0.5s ease-in;
+}
+
+#config-name form {
+  transform: scale(1.1);
+}
+
+#config-name h2 {
+  color: rgb(255, 32, 203);
+  margin: 0.8rem auto;
+}
+
+#input-alert {
+  display: none;
+  color: rgb(255, 0, 195);
+  margin: 0.6rem auto 0 auto;
+}
+
+#config-name label {
+  display: block;
+  font-weight: bold;
+}
+
+#config-name input {
+  width: 50%;
+  margin: 0.5rem auto;
+}
+
+#config-name input.error {
+  width: 50%;
+  margin: 0.5rem auto;
+  background-color: rgb(255, 0, 195);
+  color: white;
+}
+

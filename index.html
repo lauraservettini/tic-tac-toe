@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/overlay.css" />
+    <link rel="stylesheet" href="styles/configuration.css" />
+    <link rel="stylesheet" href="styles/game.css" />
+    <script src="scripts/game.js" defer></script>
+    <script src="scripts/config.js" defer></script>
+    <script src="scripts/app.js" defer></script>
+    <title>Tic Tac Toe</title>
+    <meta name="description" content="An online version of the TIc Tac Toe Game">
+  </head>
+  <body>
+    <div id="backdrop"></div>
+    <header>
+      <h1>Play Tic Tac Toe</h1>
+      <p>Built with HTML, CSS, Javascript and - of course - lots of love!</p>
+    </header>
+    <aside id="config-name">
+      <form>
+        <h2>Choose your name</h2>
+        <label for="playername">Player name</label>
+        <input type="text" name="playername" id="playername" />
+        <p id="input-alert">Please enter some name, it can't be empty!</p>
+        <div>
+          <button type="reset" class="btn btn-light">Cancel</button>
+          <button type="submit" class="btn" id="confirm-btn">Confirm</button>
+        </div>
+      </form>
+    </aside>
+    <main>
+      <section id="players-settings">
+        <ol>
+          <li>
+            <article id="player-1">
+              <h2>Player 1</h2>
+              <h3>PLAYER NAME</h3>
+              <p>X</p>
+              <button type="submit" class="edit-btn" id="edit-playername-1">
+                Edit
+              </button>
+            </article>
+          </li>
+          <li>
+            <article id="player-2">
+              <h2>Player 2</h2>
+              <h3>PLAYER NAME</h3>
+              <p>O</p>
+              <button type="submit" class="edit-btn" id="edit-playername-2">
+                Edit
+              </button>
+            </article>
+          </li>
+        </ol>
+      </section>
+      <section id="start-btn-section">
+        <div>
+          <button class="btn">Start New Game</button>
+        </div>
+      </section>
+      <section id="game-section">
+        <p id="gameText"></p>
+        <ol>
+          <li data-col="1" data-row="1"></li>
+          <li data-col="2" data-row="1"></li>
+          <li data-col="3" data-row="1"></li>
+
+          <li data-col="1" data-row="2"></li>
+          <li data-col="2" data-row="2"></li>
+          <li data-col="3" data-row="2"></li>
+
+          <li data-col="1" data-row="3"></li>
+          <li data-col="2" data-row="3"></li>
+          <li data-col="3" data-row="3"></li>
+        </ol>
+      </section>
+    </main>
+    <footer>
+      <p>Powered by Laura Servettini</p>
+    </footer>
+  </body>
+</html>

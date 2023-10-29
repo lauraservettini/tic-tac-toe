@@ -1,0 +1,46 @@
+#players-settings ol {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0 auto;
+    width: 40rem;
+}
+
+#players-settings li {
+    width: 40%;
+    margin: 2rem 2rem;
+    padding: 1rem 2rem;
+    background-color: rgb(252, 211, 242);
+    border-color:rgb(252, 211, 242);
+    border-radius: 8px;
+}
+
+#players-settings h1 {
+    font-size: 0.8rem;
+}
+
+#players-settings h3 {
+    font-size: 1.5rem;
+    color: rgb(255, 32, 203);
+    margin: 0;
+}
+
+#players-settings p {
+    font-size: 1.5rem;
+    font-weight: bold;;
+    margin: 0.8rem
+}
+
+@media (max-width: 40rem) {
+    #players-settings ol {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    #players-settings li {
+        width: 45%;
+        margin: 1rem auto;
+    }
+}

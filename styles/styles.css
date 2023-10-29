@@ -1,0 +1,70 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(68, 68, 68);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: rgb(255, 56, 209);
+  color: white;
+  text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.35);
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+footer {
+  background-color: rgb(100, 100, 100);
+  color: white;
+  text-align: center;
+  padding: 0.15rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  font: inherit;
+  background-color: rgb(255, 56, 209);
+  border: 1px solid rgb(255, 56, 209);
+  color: white;
+  margin: 1rem 0.5rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(255, 22, 201);
+  border-color: rgb(255, 22, 201);
+  color: white;
+}
+
+.btn-light {
+  background-color: rgb(254, 239, 251);
+  color: rgb(255, 56, 209);
+}
+
+#start-btn-section {
+  transition: scale 0.5s ease-in;
+}
+
+#start-btn-section .btn:hover {
+  transform: scale(1.1);
+}
+
+.edit-btn {
+  font: inherit;
+  background-color: transparent;
+  border: 1px solid rgb(255, 180, 240);
+  color: rgb(68, 68, 68);
+  margin: 0;
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background-color: rgb(255, 180, 240);
+}
